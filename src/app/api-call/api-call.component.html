@@ -1,0 +1,4 @@
+<p>api-call works!</p>
+<button (click)="getCall()">Get API</button>
+<div *ngIf="calls !== undefined">Message: {{calls.message | json}}</div>
+<div *ngIf="calls !== undefined">Location: {{calls.location | json}}</div>
